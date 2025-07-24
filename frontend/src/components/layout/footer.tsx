@@ -88,7 +88,7 @@ const social = [
   },
 ];
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="bg-white border-t border-gray-200">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
