@@ -38,8 +38,9 @@ const FreelancerSchema = new mongoose.Schema({
     lowercase: true
   },
   name: { type: String, required: true, trim: true },
-  avatar: String,d
+  avatar: String,
   title: { type: String, required: true, trim: true },
+  
   
   // Professional Information
   category: { 
